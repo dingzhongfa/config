@@ -1,0 +1,9 @@
+eureka:
+  instance:
+    metadata-map:
+       zone: zone2
+  client:
+    availability-zones:
+      us-east-1: zone2,otherzone
+server:
+  port: 14000
